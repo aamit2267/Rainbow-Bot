@@ -48,7 +48,7 @@ async def on_message(message):
     if message.content == ">>set":
         embed = discord.Embed(title="SET UP", description="Tag Role that you want to make rainbow.")
         await message.channel.send(embed=embed)
-        msg = await client.wait_for('message', check=lambda message: message.author == message.author)
+        msg = await client.wait_for('message', check=lambda mesage: mesage.author == message.author)
         rainbowrolename = msg.content
         serverid = message.guild.id
         client.loop.create_task(rainbowrole(rainbowrolename, serverid))
