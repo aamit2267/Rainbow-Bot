@@ -46,7 +46,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content == ">>set":
-        embed = discord.Embed(title="SET UP", description="Tag Role that you want to make rainbow.")
+        embed = discord.Embed(title="SET UP", description="Role Name that you want to make rainbow.")
         await message.channel.send(embed=embed)
         msg = await client.wait_for('message', check=lambda mesage: mesage.author == message.author)
         rainbowrolename = msg.content
