@@ -4,7 +4,7 @@ import asyncio
 import random
 
 token = 'NzMyNTE1MDc3OTgyMzg4MjU0.Xw1t1A.y69Hfhzpm2dvqj_M1T3uMXUIdqI'
-delay = 2
+delay = 10
 
 
 client = discord.Client()
