@@ -3,7 +3,7 @@ import discord
 import asyncio
 import random
 
-token = 'Nzc3MTYxMjcwMDU4ODExMzky.X6_Z1Q.xL_ICz0c6yaxxkla2sO01GNW30A'
+token = 'YOUR TOKEN'
 delay = 10
 
 
